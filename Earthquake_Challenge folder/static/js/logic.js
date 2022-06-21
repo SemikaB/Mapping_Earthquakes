@@ -66,9 +66,9 @@ cities.forEach(function(city) {
   console.log(city)
  });
  
- Then, get the coordinates of each city by adding city.location in the L.marker() function. We can then add each location to the map with the addTo() function and pass themap object as the argument.
+ //Then, get the coordinates of each city by adding city.location in the L.marker() function. We can then add each location to the map with the addTo() function and pass themap object as the argument.
 
-Add the following code to your logic.js file and save it:
+//Add the following code to your logic.js file and save it:
 
 // Loop through the cities array and create one marker for each city.
 cities.forEach(function(city) {
